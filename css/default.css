@@ -1,0 +1,217 @@
+body {
+    min-width: 1024px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 12px;
+}
+
+.navbar {
+    min-width: 1024px;
+}
+.navbar .container .pull-left {
+    padding-left: 50px;
+}
+.navbar .container .pull-right {
+    padding-right: 50px;
+}
+
+.navbar .brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+    -webkit-transition: all .2s linear;
+       -moz-transition: all .2s linear;
+            transition: all .2s linear;
+}
+
+.navbar .dropdown-menu {
+    margin-left: 50px;
+}
+
+.sidebar-nav {
+    margin-right: 50px;
+    padding: 9px 0;
+}
+
+footer {
+    margin: 0 50px;
+}
+.comments-page footer {
+    margin: 0;
+}
+
+/* list-item */
+
+.list-item {
+    position: relative;
+    padding: 5px 10px 5px 60px;
+}
+
+.list-item .action-group {
+    display: none;
+    position: absolute;
+    left: 0;
+}
+.list-item:hover .action-group {
+    display: block;
+}
+
+.list-item .action-group a {
+    text-decoration: none;
+    opacity: .5;
+}
+.list-item .action-group .move {
+    padding-right: 3px;
+}
+.list-item .action-group .move:hover {
+    cursor: move;
+}
+
+.list-item.project {
+    padding-left: 50px;
+}
+.list-item.project .action-group {
+    padding: 9px 0;
+}
+.list-item.project .content {
+    padding: 9px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.list-item.list .content {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.list-item.task .checker {
+    float: left;
+}
+.list-item.task .checker input {
+    font-size: 16px;
+}
+.list-item.task .content {
+    padding-left: 20px;
+}
+.list-item.task .content .text {
+    font-size: 14px;
+}
+
+.content .expanded {
+    opacity: .3;
+}
+.content .expanded span {
+    margin-right: 10px;
+}
+.content .expanded span i {
+    margin-right: 3px;
+}
+
+.list-item.task.complated .action-group {
+    left: 35px;
+}
+.list-item.task.complated .checker input {
+    font-size: 10px;
+}
+.list-item.task.complated .content .text {
+    font-size: 12px;
+    color: #999;
+}
+.list-item.task.complated .content .com-date{
+    margin-right: 10px;
+}
+
+/* modal */
+
+.modal.new-task textarea {
+    width: 520px;
+    max-width: 520px;
+    min-width: 520px;
+}
+.modal.new-task select {
+    width: 150px;
+}
+
+.modal.new-project input,
+.modal.new-list input {
+    height: 26px;
+    width: 520px;
+    font-size: 18px;
+}
+
+/* comments */
+
+.comment-subject .checker {
+    float: left;
+}
+.comment-subject .checker input {
+    margin-top: 8px;
+    font-size: 20px;
+}
+.comment-subject .content {
+    margin-left: 23px;
+}
+.comment-subject .content .text {
+    font-size: 20px;
+    line-height: 1.4;
+}
+.comment-subject .content .text .label {
+    font-size: 16px;
+}
+.comment-subject .content .text .attachment {
+    font-size: 12px;
+}
+.comment-subject .content .expanded {
+    margin-top: 5px;
+}
+
+.comment-item {
+    margin: 20px 45px;
+}
+.comment-content .content-header {
+    margin-bottom: 3px;
+}
+.comment-content .content-header b {
+    font-size: 14px;
+}
+.comment-content .content-header i {
+    color: #999;
+}
+.comment-content .txt {
+    font-size: 14px;
+}
+
+.comment-new {
+    margin: 30px 45px;
+}
+.notify-title {
+    margin: 10px 0 0 0;
+    font-weight: 800;
+    color: black;
+}
+.notify-info {
+    color: #999;
+}
+ul.notify-list {
+    margin: 10px 0;
+}
+.notify-list li {
+    display: inline-block;
+    width: 100px;
+    list-style: none;
+}
+.notify-list li input {
+    float: left;
+    margin-right: 3px;
+}
+.notify-list li.all label {
+    font-weight: 800;
+    color: black;
+}
+
+
+
